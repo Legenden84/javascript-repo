@@ -111,6 +111,10 @@ nav ul li a:hover::after {
     margin: 20px 0 40px;
 }
 
+.tab-titles p {
+    font-size: 28px;
+}
+
 .tab-links {
     margin-right: 50px;
     font-size: 18px;

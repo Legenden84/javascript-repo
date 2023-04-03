@@ -51,7 +51,7 @@
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
-                    <p class="tab-links" onclick="opentab('social')">Social Media</p>
+                    <p class="tab-links" onclick="opentab('contact')">Contact</p>
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
@@ -93,19 +93,25 @@
                         </li>
                     </ul>
                 </div>
-                <div class="tab-contents" id="social">
-                    <div class="social-media-list">
-                        <div>
-                            <i class="fa-brands fa-linkedin"></i>
-                            <h2>LinkedIn</h2>
-                            <p>LinkedIn profile</p>
-                            <a href="#">Learn more</a>
+                <div class="tab-contents" id="contact">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Information</h1>
+                            <p><i class="fas fa-paper-plane"></i>tobiaslegenden@gmail.com</p>
+                            <p><i class="fas fa-phone-square-alt"></i>+45 40 76 51 72</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/tobias-legenden-jensen-4133b1226/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/Legenden84/"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <a href="assets/legendens_cv.pdf" download class="btn btn2">Download CV</a>
                         </div>
-                        <div>
-                            <i class="fa-brands fa-github"></i>
-                            <h2>GitHub</h2>
-                            <p>GitHub repositories</p>
-                            <a href="#">Learn more</a>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="text" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -184,7 +190,10 @@
         <a href="#" class="btn">See more</a>
     </div>
 </div>
-
+<!--------------------------------------copyright-------------------------------------->
+<div class="copyright">
+    <p>Special thanks to Easy Tutorials</p>
+</div>
 
 <script>
     var tab_links = document.getElementsByClassName("tab-links");
